@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="userp.css">
+    <title>Admin Panel</title>
+</head>
+<body>
+    <div class="container">
+    <input type="text" id="searchInput" onkeyup="searchUsers()" >
+
+    <table>
+        <thead>
+            <tr>
+                <th>Username</th>
+                <th>Password</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="userTable">
+            
+        </tbody>
+    </table>
+    <script src="scripts/users.js"></script>
+    <script src="scripts/admin.js"></script>
+    <button><a href="index.html">Home</a></button>
+    </div>
+</body>
+</html>

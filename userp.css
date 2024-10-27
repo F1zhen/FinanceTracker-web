@@ -1,0 +1,58 @@
+body {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	background: #f0f0f0;
+	display: block;
+}
+
+
+.container {
+    margin-top: 8rem;
+    margin-left: auto;
+	margin-right: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 18px;
+    
+    width: 600px;
+    height: 600px;
+    text-align: left;
+    
+}
+
+.container p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+
+
+.container label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+
+.avatar img{
+    margin-left: auto;
+	margin-right: auto;
+    width: 200px;
+    height: 200px;
+    background-color: #6A5ACD;
+    border-radius: 50%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 32px;
+}
+
+.btn-primaru:hover,
+
+.btn-primary:focus,
+
+.btn-primary:visited{
+
+background-color: #6A5ACD;
+
+color: white;
+
+}

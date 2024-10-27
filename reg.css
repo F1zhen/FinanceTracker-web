@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-image: url('../images/Image\ \(1\).png');
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10000px #6A5ACD;
+    max-width: 10px;
+    text-align: center;
+}
+
+button {
+    background:#6A5ACD;
+}
+
+.container a {
+    color: black;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.btn-primary{
+
+    background-color: red;
+    
+    color: white;
+}
+
+.btn-primaru:hover,
+
+.btn-primary:focus,
+
+.btn-primary:visited{
+
+background-color: #6A5ACD;
+
+color: white;
+
+}
